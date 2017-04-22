@@ -1,6 +1,6 @@
 {% set name = "eight" %}
-{% set version = "0.3.3" %}
-{% set sha256 = "b76605189e4484c769c4ee8d8029999756e2b35a4f6c71e4b40e5268400a98a6" %}
+{% set version = "0.4.1" %}
+{% set sha256 = "8f43362b7f4a1113e4f45bb05625d2655bdf91dbdb411545efb990b47c0c6889" %}
 
 package:
   name: {{ name|lower }}
@@ -19,10 +19,10 @@ requirements:
   build:
     - python
     - setuptools
-    - future 0.15.2
+    - future
   run:
     - python
-    - future 0.15.2
+    - future
 
 test:
   imports:
