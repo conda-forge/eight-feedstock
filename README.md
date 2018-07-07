@@ -19,14 +19,15 @@ Python 3.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/eight-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/eight-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/eight-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/eight-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/eight-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/eight-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/eight-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/eight-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/eight/badges/version.svg)](https://anaconda.org/conda-forge/eight)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/eight/badges/downloads.svg)](https://anaconda.org/conda-forge/eight)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-eight-green.svg)](https://anaconda.org/conda-forge/eight) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/eight.svg)](https://anaconda.org/conda-forge/eight) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/eight.svg)](https://anaconda.org/conda-forge/eight) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/eight.svg)](https://anaconda.org/conda-forge/eight) |
 
 Installing eight
 ================
