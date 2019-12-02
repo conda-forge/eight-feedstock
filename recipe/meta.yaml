@@ -1,6 +1,6 @@
 {% set name = "eight" %}
-{% set version = "0.4.2" %}
-{% set sha256 = "eebadb79193c9a3ed95a74f59462267f05ca41c23a804f9f0dd80e597c9a9f8e" %}
+{% set version = "1.0.0" %}
+{% set sha256 = "0a7f0e7725f2a478a97676cf9c49266d95f922f8ed621ec314eeccb333927dc2" %}
 
 package:
   name: {{ name|lower }}
@@ -13,8 +13,8 @@ source:
 
 build:
   noarch: python
-  number: 2
-  script: python -m pip install --no-deps --ignore-installed .
+  number: 0
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
@@ -33,6 +33,7 @@ test:
 about:
   home: https://github.com/kislyuk/eight
   license: Apache-2.0
+  license_file: LICENSE
   summary: 'Eight is a Python module that provides a minimalist compatibility layer between Python 3 and 2'
   description: |
     Eight is inspired by six, nine, and python-future, but provides better
