@@ -1,6 +1,6 @@
 {% set name = "eight" %}
 {% set version = "1.0.1" %}
-{% set sha256 = "0a7f0e7725f2a478a97676cf9c49266d95f922f8ed621ec314eeccb333927dc2" %}
+{% set sha256 = "6465970d3c12a1d759151690629b10b50ffb124c9b62e912999ee9233378a562" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 2
+  number: 4
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
