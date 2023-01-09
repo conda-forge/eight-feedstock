@@ -19,11 +19,11 @@ build:
 requirements:
   host:
     - pip
-    - python>=3.3
+    - python >=3.3
     - setuptools
     - future
   run:
-    - python>=3.3
+    - python >=3.3
     - future
 
 test:
