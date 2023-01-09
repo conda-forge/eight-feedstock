@@ -1,5 +1,5 @@
 {% set name = "eight" %}
-{% set version = "1.0.0" %}
+{% set version = "1.0.1" %}
 {% set sha256 = "0a7f0e7725f2a478a97676cf9c49266d95f922f8ed621ec314eeccb333927dc2" %}
 
 package:
